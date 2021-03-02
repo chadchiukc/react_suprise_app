@@ -1,0 +1,33 @@
+.Hamm {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-image: url(../assets/background.jpg);
+}
+
+.HammLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .HammLogo {
+    animation: Hamm-spin infinite 3.5s linear;
+  }
+}
+
+@keyframes Hamm-spin {
+  0% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}

@@ -1,0 +1,21 @@
+.questions {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-image: url(../assets/toy_story_cloud_wallpaper_background_by_luxojr888_ddep6ad-fullview.jpg);
+  background-size: cover;
+}
+
+.questions__modal {
+  font-family: "Noto Sans TC";
+  font-size: larger;
+}
+
+.questions__button {
+  font-family: "Gloria Hallelujah";
+}

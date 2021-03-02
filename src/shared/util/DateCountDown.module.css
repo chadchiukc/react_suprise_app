@@ -1,0 +1,26 @@
+.countDown {
+  width: 90%;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: medium;
+}
+
+.countDown_col {
+  display: inline-block;
+  width: 23%;
+  background-color: rgb(250, 235, 215);
+  opacity: 0.7;
+  border-radius: 2rem;
+  margin: 3px;
+}
+
+.countDown_col_element {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countDown_col_element strong {
+  font-size: 40px;
+}

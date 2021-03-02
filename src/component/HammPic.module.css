@@ -1,0 +1,37 @@
+.dialog {
+  margin: 30px;
+  width: 300px;
+  height: 100px;
+  border: 10px solid rgb(243, 151, 167);
+  background: pink;
+  border-radius: 15px;
+  box-shadow: 6px 6px rgba(240, 169, 181, 0.4);
+  opacity: 0.7;
+  position: relative;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.dialog::after {
+  border-color: rgb(243, 151, 167) rgb(243, 151, 167) transparent transparent;
+  border-style: solid solid solid solid;
+
+  border-width: 30px 20px 30px 20px;
+
+  bottom: -60px;
+
+  content: "";
+
+  height: 0px;
+  left: 50px;
+  position: absolute;
+
+  width: 0px;
+}
+
+@media (min-width:500px) {
+  .dialog {
+    width: 400px;
+    height: 200px;
+  }
+}
