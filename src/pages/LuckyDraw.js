@@ -24,8 +24,8 @@ const LuckyDraw = (props) => {
       <div style={{marginTop: '5px'}}>
         <h4 style={{fontFamily: "Gloria Hallelujah"}}>WOW!!</h4>
         <h1>恭喜!!抽中特大獎IPHONE12!!</h1>
-        <h4>請聯絡趙家進換取獎品</h4>
-        <h4>兌換密碼:趙家進愛你一生一世</h4>
+        <h4>請聯絡XXX換取獎品</h4>
+        <h4>兌換密碼:XYZ</h4>
       </div>
     );
   }
